@@ -1,0 +1,41 @@
+{
+  "authors": [
+    {"name": "Terry Pratchett", "bio": "English author of the comic fantasy Discworld series."},
+    {"name": "Neil Gaiman", "bio": "English author of novels, comics and screenplays."},
+    {"name": "Ursula K. Le Guin", "bio": "American author best known for the Earthsea fantasy series."},
+    {"name": "Octavia E. Butler", "bio": "American science fiction author and MacArthur Fellow."}
+  ],
+  "books": [
+    {"title": "Good Omens", "isbn": "978-0-06-085398-3", "year_published": 1990, "available_copies": 3,
+     "authors": ["Terry Pratchett", "Neil Gaiman"]},
+    {"title": "American Gods", "isbn": "978-0-380-78903-0", "year_published": 2001, "available_copies": 2,
+     "authors": ["Neil Gaiman"]},
+    {"title": "Coraline", "isbn": "978-0-380-80734-5", "year_published": 2002, "available_copies": 2,
+     "authors": ["Neil Gaiman"]},
+    {"title": "The Colour of Magic", "isbn": "978-0-06-222567-2", "year_published": 1983, "available_copies": 2,
+     "authors": ["Terry Pratchett"]},
+    {"title": "A Wizard of Earthsea", "isbn": "978-0-547-77374-2", "year_published": 1968, "available_copies": 2,
+     "authors": ["Ursula K. Le Guin"]},
+    {"title": "The Left Hand of Darkness", "isbn": "978-0-441-47812-5", "year_published": 1969, "available_copies": 1,
+     "authors": ["Ursula K. Le Guin"]},
+    {"title": "Kindred", "isbn": "978-0-8070-8369-7", "year_published": 1979, "available_copies": 1,
+     "authors": ["Octavia E. Butler"]}
+  ],
+  "members": [
+    {"name": "Alice Johnson", "email": "alice@example.com", "joined_days_ago": 400},
+    {"name": "Brian Lee", "email": "brian@example.com", "joined_days_ago": 250},
+    {"name": "Carmen Diaz", "email": "carmen@example.com", "joined_days_ago": 120},
+    {"name": "David Kim", "email": "david@example.com", "joined_days_ago": 60},
+    {"name": "Emma Wilson", "email": "emma@example.com", "joined_days_ago": 10}
+  ],
+  "borrowings": [
+    {"member_email": "alice@example.com", "book_isbn": "9780060853983", "checkout_days_ago": 90, "returned_days_ago": 80},
+    {"member_email": "alice@example.com", "book_isbn": "9780547773742", "checkout_days_ago": 30, "returned_days_ago": null},
+    {"member_email": "brian@example.com", "book_isbn": "9780380789030", "checkout_days_ago": 45, "returned_days_ago": 35},
+    {"member_email": "brian@example.com", "book_isbn": "9780807083697", "checkout_days_ago": 5, "returned_days_ago": null},
+    {"member_email": "carmen@example.com", "book_isbn": "9780441478125", "checkout_days_ago": 20, "returned_days_ago": null},
+    {"member_email": "carmen@example.com", "book_isbn": "9780062225672", "checkout_days_ago": 15, "returned_days_ago": 2},
+    {"member_email": "david@example.com", "book_isbn": "9780060853983", "checkout_days_ago": 3, "returned_days_ago": null},
+    {"member_email": "david@example.com", "book_isbn": "9780380807345", "checkout_days_ago": 50, "returned_days_ago": 40}
+  ]
+}

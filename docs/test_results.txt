@@ -1,0 +1,45 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python
+cachedir: .pytest_cache
+rootdir: /home/user/prework-section-a-logical-thinking/library-management-system
+plugins: anyio-4.15.1
+collecting ... collected 36 items
+
+tests/test_cli.py::test_demo_flow_add_checkout_view_return PASSED        [  2%]
+tests/test_cli.py::test_search_submenu_and_overdue PASSED                [  5%]
+tests/test_cli.py::test_input_validation_reprompts PASSED                [  8%]
+tests/test_cli.py::test_admin_options PASSED                             [ 11%]
+tests/test_cli.py::test_reseed_and_empty_db_offer PASSED                 [ 13%]
+tests/test_cli.py::test_ctrl_d_exits_cleanly PASSED                      [ 16%]
+tests/test_crud.py::test_seed_meets_minimum_counts PASSED                [ 19%]
+tests/test_crud.py::test_seed_copies_reflect_active_loans PASSED         [ 22%]
+tests/test_crud.py::test_many_to_many_books_authors_both_directions PASSED [ 25%]
+tests/test_crud.py::test_one_to_many_borrowings_both_directions PASSED   [ 27%]
+tests/test_crud.py::test_add_book_creates_new_and_reuses_existing_authors PASSED [ 30%]
+tests/test_crud.py::test_add_book_validation[kwargs0-Title] PASSED       [ 33%]
+tests/test_crud.py::test_add_book_validation[kwargs1-ISBN] PASSED        [ 36%]
+tests/test_crud.py::test_add_book_validation[kwargs2-Year] PASSED        [ 38%]
+tests/test_crud.py::test_add_book_validation[kwargs3-copies] PASSED      [ 41%]
+tests/test_crud.py::test_duplicate_isbn_rejected PASSED                  [ 44%]
+tests/test_crud.py::test_add_member_validation_and_unique_email PASSED   [ 47%]
+tests/test_crud.py::test_duplicate_author_rejected PASSED                [ 50%]
+tests/test_crud.py::test_checkout_decrements_copies PASSED               [ 52%]
+tests/test_crud.py::test_cannot_checkout_unavailable_book PASSED         [ 55%]
+tests/test_crud.py::test_cannot_checkout_same_book_twice PASSED          [ 58%]
+tests/test_crud.py::test_checkout_unknown_ids_and_future_date PASSED     [ 61%]
+tests/test_crud.py::test_search_by_title_is_case_insensitive PASSED      [ 63%]
+tests/test_crud.py::test_find_books_by_author_partial_name PASSED        [ 66%]
+tests/test_crud.py::test_member_borrowings_active_vs_history PASSED      [ 69%]
+tests/test_crud.py::test_overdue_books PASSED                            [ 72%]
+tests/test_crud.py::test_return_book_sets_date_and_increments_copies PASSED [ 75%]
+tests/test_crud.py::test_return_date_rules PASSED                        [ 77%]
+tests/test_crud.py::test_update_member_email PASSED                      [ 80%]
+tests/test_crud.py::test_cannot_delete_borrowed_book PASSED              [ 83%]
+tests/test_crud.py::test_delete_book_with_only_returned_history PASSED   [ 86%]
+tests/test_crud.py::test_cannot_delete_member_with_active_loans PASSED   [ 88%]
+tests/test_crud.py::test_delete_member_without_active_loans PASSED       [ 91%]
+tests/test_crud.py::test_database_rejects_negative_copies PASSED         [ 94%]
+tests/test_crud.py::test_database_enforces_foreign_keys PASSED           [ 97%]
+tests/test_crud.py::test_session_usable_after_failed_operation PASSED    [100%]
+
+============================== 36 passed in 3.81s ==============================

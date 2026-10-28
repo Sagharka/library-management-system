@@ -1,0 +1,229 @@
+
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: 
+Title: ISBN (10 or 13 digits): Year published: Number of copies: Author name(s), comma-separated: ✅ Added book [8] 'Dune' by Frank Herbert.
+
+Press Enter to continue...
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: 
+  [1] Alice Johnson <alice@example.com>  joined 2025-09-17, 1 active loan(s)
+  [2] Brian Lee <brian@example.com>  joined 2026-02-14, 1 active loan(s)
+  [3] Carmen Diaz <carmen@example.com>  joined 2026-06-24, 1 active loan(s)
+  [4] David Kim <david@example.com>  joined 2026-08-23, 1 active loan(s)
+  [5] Emma Wilson <emma@example.com>  joined 2026-10-12, 0 active loan(s)
+Member id:   [5] A Wizard of Earthsea — Ursula K. Le Guin (1 available)
+  [2] American Gods — Neil Gaiman (2 available)
+  [3] Coraline — Neil Gaiman (2 available)
+  [8] Dune — Frank Herbert (1 available)
+  [1] Good Omens — Terry Pratchett, Neil Gaiman (2 available)
+  [7] Kindred — Octavia E. Butler (0 available)
+  [4] The Colour of Magic — Terry Pratchett (2 available)
+  [6] The Left Hand of Darkness — Ursula K. Le Guin (0 available)
+Book id: Checkout date (YYYY-MM-DD, Enter for today): ✅ 'Dune' checked out to Emma Wilson (loan #9). Due back 2026-11-05. Copies left: 0.
+
+Press Enter to continue...
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: 
+  [1] Alice Johnson <alice@example.com>  joined 2025-09-17, 1 active loan(s)
+  [2] Brian Lee <brian@example.com>  joined 2026-02-14, 1 active loan(s)
+  [3] Carmen Diaz <carmen@example.com>  joined 2026-06-24, 1 active loan(s)
+  [4] David Kim <david@example.com>  joined 2026-08-23, 1 active loan(s)
+  [5] Emma Wilson <emma@example.com>  joined 2026-10-12, 1 active loan(s)
+Member id:   [5] A Wizard of Earthsea — Ursula K. Le Guin (1 available)
+  [2] American Gods — Neil Gaiman (2 available)
+  [3] Coraline — Neil Gaiman (2 available)
+  [8] Dune — Frank Herbert (0 available)
+  [1] Good Omens — Terry Pratchett, Neil Gaiman (2 available)
+  [7] Kindred — Octavia E. Butler (0 available)
+  [4] The Colour of Magic — Terry Pratchett (2 available)
+  [6] The Left Hand of Darkness — Ursula K. Le Guin (0 available)
+Book id: Checkout date (YYYY-MM-DD, Enter for today): ❌ 'Dune' has no available copies right now.
+
+Press Enter to continue...
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: 
+  [1] Alice Johnson <alice@example.com>  joined 2025-09-17, 1 active loan(s)
+  [2] Brian Lee <brian@example.com>  joined 2026-02-14, 1 active loan(s)
+  [3] Carmen Diaz <carmen@example.com>  joined 2026-06-24, 1 active loan(s)
+  [4] David Kim <david@example.com>  joined 2026-08-23, 1 active loan(s)
+  [5] Emma Wilson <emma@example.com>  joined 2026-10-12, 1 active loan(s)
+Member id: 
+Current borrowings for Emma Wilson:
+Loan  Book                         Out        Due        Status
+------------------------------------------------------------------------
+   9  Dune                         2026-10-22 2026-11-05 Checked out
+(1 borrowing(s))
+Show full borrowing history too? (y/n): 
+Press Enter to continue...
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: 
+  [1] Alice Johnson <alice@example.com>  joined 2025-09-17, 1 active loan(s)
+  [2] Brian Lee <brian@example.com>  joined 2026-02-14, 1 active loan(s)
+  [3] Carmen Diaz <carmen@example.com>  joined 2026-06-24, 1 active loan(s)
+  [4] David Kim <david@example.com>  joined 2026-08-23, 1 active loan(s)
+  [5] Emma Wilson <emma@example.com>  joined 2026-10-12, 1 active loan(s)
+Member id: Loan  Book                         Out        Due        Status
+------------------------------------------------------------------------
+   9  Dune                         2026-10-22 2026-11-05 Checked out
+(1 borrowing(s))
+Loan number to return: Return date (YYYY-MM-DD, Enter for today): ✅ 'Dune' returned by Emma Wilson on 2026-10-22. Copies available: 1.
+
+Press Enter to continue...
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: 
+Books not returned within 14 days:
+Loan  Book                         Member           Out        Due        Status
+------------------------------------------------------------------------
+   2  A Wizard of Earthsea         Alice Johnson    2026-09-22 2026-10-06 OVERDUE 16 day(s)
+   5  The Left Hand of Darkness    Carmen Diaz      2026-10-02 2026-10-16 OVERDUE 6 day(s)
+(2 borrowing(s))
+
+Press Enter to continue...
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: 
+  [1] Alice Johnson <alice@example.com>  joined 2025-09-17, 1 active loan(s)
+  [2] Brian Lee <brian@example.com>  joined 2026-02-14, 1 active loan(s)
+  [3] Carmen Diaz <carmen@example.com>  joined 2026-06-24, 1 active loan(s)
+  [4] David Kim <david@example.com>  joined 2026-08-23, 1 active loan(s)
+  [5] Emma Wilson <emma@example.com>  joined 2026-10-12, 0 active loan(s)
+Member id to remove: Really remove Alice Johnson? (y/n): ❌ Cannot remove Alice Johnson: they still have 1 book(s) checked out.
+
+Press Enter to continue...
+📚 Library Management System
+1. Add a book
+2. Add a member
+3. Search books
+4. Check out a book
+5. Return a book
+6. View member's borrowings
+7. View overdue books
+8. Exit
+--- More options ---
+9.  Add an author
+10. Update a member's email
+11. Remove a book
+12. Remove a member
+13. List all members
+14. List all authors
+15. Reset database with sample data
+
+Choose an option: Goodbye! 👋
